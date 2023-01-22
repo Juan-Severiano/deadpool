@@ -1,5 +1,35 @@
 @charset "UTF-8";
 
+body{
+    font-family: 'Poppins';
+}
+
 .header{
     background-color: aqua;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.header .logo img{
+    max-height: 150px;
+}
+.header .nav ul {
+    display: flex;
+}
+.header .nav ul li{
+    padding: 30px;
+    font-weight: bolder;
+    font-size: 25px;
+    border-radius: 50px;
+    transition: all 300ms ease-in-out;
+}
+.header .nav ul li:hover{
+    background-color: blueviolet;
+}
+.container{
+    background-color: violet;
+    dis
 }
