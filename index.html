@@ -1,43 +1,71 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="src/css/style.css">
-        <link rel="stylesheet" href="src/css/reset.css">
-        <link rel="shortcut icon" href="src/img/3b491a6d49006dc3a53e14e3977ca352.png" type="image/x-icon">
-        <title>Deadpool</title>
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
+<html lang="pt-BR">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+		<link rel="shortcut icon"
+			href="./src/img/3b491a6d49006dc3a53e14e3977ca352.png" type="image/x-icon">
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 		<link
 			href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;500&display=swap"
 			rel="stylesheet" />
-    </head>
-    <body>
-        <header class="header">
-            <a class="logo">
-                <img src="src/img/deadpool-navbar-removebg-preview.png"
-                    alt="Deadpool te olhando fofinho">
-            </a>
-            <nav class="nav">
-                <ul class="list-itens">
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Meus livros</a></li>
-                </ul>
-            </nav>
-        </header>
-        <main class="container">
-            <div class="main-content">
-                <div class="title">
-                    <img src="src/img/title-deadpool-removebg-preview.png" alt="título do deadpool com ele deitado em cima">
-                </div>
-                <div class="description">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam possimus, nesciunt cumque eius expedita error quibusdam, animi enim tempora ab minus quasi dolorum earum voluptate aliquam autem tempore reiciendis quisquam.</p>
-                    <button class="buttom">Ver Vídeo</button>
-                </div>
-                <img src="src/img/Deadpool-removebg-preview.png" alt="">
-            </div>
-        </main>
-    </body>
+		<link rel="stylesheet" href="./src/css/reset.css" />
+		<link rel="stylesheet" href="./src/css/style.css" />
+
+		<title>Deadpool</title>
+	</head>
+	<body>
+		<div class="fundo-video">
+			<video class="video" autoplay loop muted>
+				<source src="./src/video/Deadpool Without Me Edit(Küfür
+					İçerir)(720P_HD).mp4" type="video/mp4" />
+			</video>
+		</div>
+
+		<header class="header">
+			<a href="/">
+				<img class="logo" src="./src/img/deadpool-navbar.png" alt="deadpool sendo o
+					deadpool" />
+			</a>
+			<nav>
+				<ul class="menu">
+					<li>
+						<a href="#">Home</a>
+					</li>
+					<li>
+						<a href="#">Detalhes</a>
+					</li>
+				</ul>
+			</nav>
+		</header>
+
+		<main class="container">
+			<div class="informacoes">
+				<img class="imagem-titulo"
+					src="./src/img/deadpool-title-removebg-preview.png" alt="imagem do título
+					do filme" />
+				<p class="descricao">Wade Wilson é um ex-agente especial que passou a
+					trabalhar como mercenário. O experimento brutal
+					transforma Wade em Deadpool. Com a ajuda de aliados poderosos e um senso de humor mais desbocado e cínico do que nunca, o irreverente anti-herói usa habilidades e
+					métodos violentos para se vingar do homem que quase acabou com a sua vida.
+				</p>
+			</div>
+			<img class="deadpool" src="./src/img/deadpool.png" alt="deadpool de braços cruzados" />
+
+			<!-- <div class="modal">
+				<div class="conteudo-modal">
+					<span class="fechar-modal">❌</span>
+					<iframe id="video" width="560" height="315"
+						src="https://youtu.be/214akTge-r4" title="Trailer oficial"
+						frameborder="1" allow="accelerometer; autoplay; clipboard-write;
+						encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>
+			</div> -->
+		</main>
+
+		<script src="./src/js/index.js"></script>
+	</body>
 </html>
